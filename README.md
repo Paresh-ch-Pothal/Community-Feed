@@ -36,22 +36,28 @@ A full-stack social platform featuring a threaded comment system, real-time karm
    cd backend
    
 2. Create and activate a virtual environment:
+   ```bash
    python -m venv venv
    #### Windows:
    venv\Scripts\activate
    #### Mac/Linux:
    source venv/bin/activate
+   ```
    
 3. Install dependencies:
+   ```bash
    pip install -r requirements.txt
+   ```
   
 4. Database Configuration: The system is designed to be plug-and-play:
    f you have a DATABASE_URL in your environment variables, the system will connect to PostgreSQL.
    If no URL is found, the system automatically defaults to SQLite (db.sqlite3), making it easy to test locally without database setup.
 
 5. Run migrations and start the server:
+   ```bash
    python manage.py migrate
    python manage.py runserver
+   ```
 
 ### 3. Frontend Setup
 1. Navigate to the frontend folder:
