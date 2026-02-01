@@ -1,10 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Signup from './components/signup/Signup';
-import Login from './components/login/Login.';
+import Login from './components/login/Login';
 import Feed from './components/feed/Feed';
-
-
 
 
 const App: React.FC = () => {
