@@ -55,7 +55,9 @@ A full-stack social platform featuring a threaded comment system, real-time karm
 
 ### 3. Frontend Setup
 1. Navigate to the frontend folder:
+ ```bash
    cd frontend
+   ```
 
 2. Install packages:
    npm install
@@ -68,4 +70,6 @@ A full-stack social platform featuring a threaded comment system, real-time karm
 
 ### 4. Testing the Data
   To quickly see the Leaderboard and Comment Tree in action, you can seed the database with test data:
+  ```bash
   python seedDb.py
+   ```
