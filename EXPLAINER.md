@@ -68,6 +68,6 @@ At first, the AI suggested adding a karma field directly to the User model and u
 2. Lack of Context: A simple karma counter doesn't help us figure out "How many points were earned in the last 24 hours?" without more complex queries.
 
 ### How I Fixed It:
-I redesigned the system to use a "Karma Ledger" with Django ContentTypes.
+1. I redesigned the system to use a "Karma Ledger" with Django ContentTypes.
 2. Generic Foreign Keys: Instead of linking to just one model (like a post), the ledger can link to any model (post or comment) without hardcoded relationships.
 3. Event-Based System: Instead of storing a total karma count, we calculate it based on events (like each time a user earns points). This makes the system accurate, and we can easily filter for things like the 24-hour leaderboard.
