@@ -66,14 +66,20 @@ A full-stack social platform featuring a threaded comment system, real-time karm
    ```
 
 2. Install packages:
+   ```bash
    npm install
+   ```
 
 3. Create a .env file in the frontend root and add your backend URL:
+   ```bash
    VITE_API_URL=http://127.0.0.1:8000
+   ```
 
 4. Start the development server:
+   ```bash
    npm run dev
-
+   ```
+   
 ### 4. Testing the Data
   To quickly see the Leaderboard and Comment Tree in action, you can seed the database with test data:
   ```bash
