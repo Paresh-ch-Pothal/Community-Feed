@@ -127,6 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite dev server
     "http://localhost:3000",  # Alternative React port
+    "https://community-feed-theta.vercel.app"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
